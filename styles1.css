@@ -1,0 +1,27 @@
+h1 ,div {
+    
+    background-color: skyblue;
+    text-align: center;
+    color:darkblue;
+    padding:0.5em}
+article p {padding: 0.5em
+}
+article,body,div,footer,header,h1,h2,p { margin:0; padding:0;
+}
+
+div{ clear:right ;text-align:right; padding:0.5em}
+article  {padding: 0.5em;
+    position:relative;
+    left:0.8em
+}
+h2{position:relative;
+left:-0.3em}
+
+body{width:45em;
+     border:0.25em solid darkblue;
+    position:relative;
+left:35em}
+     article{width:60%;float:right;position:relative }
+     aside{width:25% ; padding:2.85em;background-color: burlywood;}
+   .accent{padding: 0.25em; position:relative; top:-1em; left:-1em}
+
