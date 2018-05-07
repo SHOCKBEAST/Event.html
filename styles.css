@@ -1,0 +1,10 @@
+div,h1, header {background: skyblue; 
+text-align: center;
+}
+.accent {color: darkblue}
+#contact {color: red;
+/*id selector */
+text-align: right;}
+header {text-align: right;}    
+/*class*/
+div {text-align:right}
