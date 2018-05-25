@@ -1,0 +1,222 @@
+html {
+    font-size: 30px;  /*this shows the font size set for all the text*/
+ }
+ article, body, div,figure, footer, header, h1, h2, img, nav, p {
+    border: 0;   
+    padding: 0;
+    margin: 0;    /*this allows the spacing of the page to be the same  */
+}
+h1 {
+    font-family: 'Righteous', cursive;
+text-align: center;   /*allows the text to be align at the center*/
+border:1em solid #000000;   /*create a black border around the title*/
+text-transform: uppercase;    /*making the title in caps */
+}
+a{   padding:0.1em;
+    margin:0.2em;
+    color:#000000;
+text-decoration:none;
+border:solid 0.1em #000000;
+background:#E3E3DB;        
+}
+       
+#border {
+    background:#000000;
+    border:1.4em solid #E3E3DB;
+    font-size:40px;
+}
+#pics {
+    background:none;  /*remove the color of the background of the picture*/
+    border:none;      /*remove the border of the picture */
+}
+a:hover{color:purple;} /* hover mouse to see the purple color */
+ .hvr-grow {
+    display: inline-block;   /*display: inline-block allows to set a width
+      and height on the element and the top and bottom margin/paddings are respected*/
+    transform: translateZ(0); /*the transform property applies a 2D or 3D transformation 
+    to an element and define  3D translation,using only for the z-axis*/                
+    transition-duration: 0.3s;
+    transition-property: transform;
+    width:7em;
+}
+    .hvr-grow:hover,
+    .hvr-grow:focus,
+    .hvr-grow:active {
+        transform: scale(1.1);  /*make the characters zoom in */
+    }
+        .container {    
+            max-width: 640px;
+            margin: 0 auto;
+            background-color: #E3E3DB;
+            position: relative;
+            text-align: center;
+            font-family: 'Righteous', cursive;                   
+ }
+ #first {
+    width: 100%;
+    padding: 0;
+    margin:0;
+    background-color: #bdccd4;
+    text-align: center;
+    position: relative;
+
+
+    
+ }
+         body{
+             background:url("grey.jpg");
+            }   
+     
+#picture {
+    position: absolute;
+    top:8em;
+    left:-17.5em;
+float:left;
+background:none;
+border:none;
+
+}
+
+#photo{position: absolute;
+    top:8.5em;
+    right:-19em;
+    
+float:right;
+}
+figure{ padding:0.2em 0;}
+
+
+
+/*webpage2 webpage3 **/
+article {
+    width: 62%;
+    padding: 2%;
+    float: left;
+ }  
+ article p {
+    margin: 0 0 0.8em 1em;
+ }
+ article span {
+    font-weight: bold;
+ }
+ .passion{border:1em solid #000000;
+    text-align: center;
+}
+
+ .second {
+
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #E3E3DB;
+    position: relative;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+
+aside {
+    width: 28%;
+    padding: 0 2em 0 0;
+    float: right;
+    
+ }
+
+ footer {
+    padding: 0 2em;
+    clear: both;
+    text-align: left;
+
+ }
+ .life {text-align: left;}
+ #sports{position: relative;}
+ #pic{
+     position:relative;
+bottom:-0.8em;
+left:-1em;
+padding:0.2em 0;
+}
+/* third page */
+.third {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #E3E3DB;
+    position: relative;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size:30px;
+}
+#achieve{   
+    padding: 1.5em;
+    letter-spacing:0.3em;
+    text-transform: uppercase;
+    font-size: 30px;    
+    background:#E3E3DB  ;
+    border-left: 1em solid #000000;
+}
+
+#cert{position: absolute;
+   left: 12em;
+ top:31.5em;
+    }
+    #cert:hover {z-index: 2;
+        transform: scale(2.2);}
+        #cert1 {position: absolute;
+            left:1.7em;
+            top:31.5em;
+            }
+            #cert1:hover {z-index:2;
+            transform:scale(2.2);}
+
+
+
+#test{
+    position:relative;
+    margin:2em;
+    left:-3em;
+/*preloader*/
+}
+
+ .preloader
+
+{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#E3E3DB;    
+    transition: 3s;
+  
+    
+    
+}
+.preloader:before{
+content:'';
+position: absolute;
+left:0;
+width:50%;
+height:100%;
+background:#000000;
+transition: 2s;
+
+
+}
+.preloader.complete:before{
+    Left:-50%;
+}
+.preloader:after{
+    content:'';
+    position: absolute;
+    right:0;
+    width:50%;
+    height:100%;
+    background:#000000;
+    transition:2s;
+
+}
+.preloader.complete:after{
+    right:-50%;
+}
+.preloader.complete{
+    opacity: 0;
+}
+ 
