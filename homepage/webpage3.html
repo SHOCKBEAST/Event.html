@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Portfolio </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- 1. Link to jQuery (1.8 or later), -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- fotorama.css & fotorama.js. -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <script>
+
+    </script>
+
+    <style>
+        .icon {
+            animation: shake 1s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translate(1px, 1px) rotate(0deg);
+            }
+            10% {
+                transform: translate(-1px, -2px) rotate(-1deg);
+            }
+            20% {
+                transform: translate(-3px, 0px) rotate(1deg);
+            }
+            30% {
+                transform: translate(3px, 2px) rotate(0deg);
+            }
+            40% {
+                transform: translate(1px, -1px) rotate(1deg);
+            }
+            50% {
+                transform: translate(-1px, 2px) rotate(-1deg);
+            }
+            60% {
+                transform: translate(-3px, 1px) rotate(0deg);
+            }
+            70% {
+                transform: translate(3px, 1px) rotate(-1deg);
+            }
+            80% {
+                transform: translate(-1px, -1px) rotate(1deg);
+            }
+            90% {
+                transform: translate(1px, 2px) rotate(0deg);
+            }
+            100% {
+                transform: translate(1px, -2px) rotate(-1deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div class="side">
+            <div class="icon">
+                <a href="homepage.html">
+                    <img src="notes.jpg" alt="note" class="responsive">
+                </a>
+
+            </div>
+
+
+            <h1>Portfolio</h1>
+            <button>Click me to hide words!</button>
+            <button id="show">Click me to show words!</button>
+            <div class="words">
+                <p>I have many electronic organ certs which I can showcase my skills in playing the electronic organ, an electronic
+                    organ is like a piano but it has 2 keyboards and pedals.
+                </p>
+                <P>For learning the electronic organ, I was always the slowest and was most of the time scolded by my teacher.
+                    There was once I wanted to quit organ but my mum persuaded me to stay and learn and so I did. I am so
+                    glad I did not quit and continued to play. Thus I am able to pick up playing organ as part of my hobby.
+                    The great thing is that I am able to play both the piano and electronic organ, that i am able to self-learn
+                    in playing the piano
+                </p>
+                <form action="results.html" target="_blank">
+                 <h2>Thank you for taking your time to look through my website, Please enter the following:</h2>
+
+                    Name:
+                    <input type="text" name="name" value="">
+                    <br> Age:
+                    <input type="text" name="age" value="">
+                    <br>
+                    <input type="submit" value="Submit">
+
+
+                </form>
+            </div>
+
+            <aside>
+                <div id="sidebar">
+                    <img src="sidebar.jpg" alt="sidecolor" class="responsive">
+                </div>
+            </aside>
+
+
+
+
+            <div class="mobile">
+                <div id="background">
+                    <img src="background.jpg" alt="background" class="responsive">
+                </div>
+                <div id="piano">
+                    <div class="fotorama">
+                        <img src="portfolio1.jpg" alt="image without background" class="responsive">
+                        <img src="cert.jpg" alt="cert" class="responsive">
+                        <img src="cert1.jpg" alt="cert" class="responsive">
+                        <img src="cert2.jpg" alt="cert" class="responsive">
+                        <img src="cert3.jpg" alt="cert" class="responsive">
+                        <img src="cert4.jpg" alt="cert" class="responsive">
+                        <img src="cert5.jpg" alt="cert" class="responsive">
+                        <img src="cert6.jpg" alt="cert" class="responsive">
+                        <img src="cert7.jpg" alt="cert" class="responsive">
+                        <img src="cert8.jpg" alt="cert" class="responsive">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+        <div id="portfolio">
+            <div class="fotorama">
+                <img src="portfolio.jpg" alt="portfolio" class="responsive">
+                <img src="cert.jpg" alt="cert" class="responsive">
+                <img src="cert1.jpg" alt="cert" class="responsive">
+                <img src="cert2.jpg" alt="cert" class="responsive">
+                <img src="cert3.jpg" alt="cert" class="responsive">
+                <img src="cert4.jpg" alt="cert" class="responsive">
+                <img src="cert5.jpg" alt="cert" class="responsive">
+                <img src="cert6.jpg" alt="cert" class="responsive">
+                <img src="cert7.jpg" alt="cert" class="responsive">
+                <img src="cert8.jpg" alt="cert" class="responsive">
+
+
+            </div>
+        </div>
+
+        <nav class="sitenavigation">
+            <ul>
+                <li>
+                    <a href="index.html" class="hvr-grow">About me</a>
+                </li>
+                <li>
+                    <a href="webpage2.html" class="hvr-grow">Stories of me</a>
+                </li>
+                <li>
+                    <a href="webpage3.html" class="hvr-grow">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

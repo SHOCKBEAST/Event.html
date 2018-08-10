@@ -1,0 +1,231 @@
+
+/* reset styles */
+html {
+    font-size: 17px;
+ }
+a, article, body, div, figcaption, figure, footer, header, h1, 
+h2, h3, img, li, nav, p, section, ul {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+.responsive  {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+ 
+   
+ 
+ }
+ p{ font-size: 2vw;
+
+    font-family: 'Bungee Inline', cursive;
+
+
+ }
+ h1{
+    font-family: 'Monoton', cursive;
+    font-size:4vw;
+ 
+ 
+ }
+
+ .words{
+    border:2px solid #333;
+
+   max-width: 700px;
+   overflow:auto;
+   
+ 
+}
+
+
+.side {
+position: absolute;
+width:60%;
+float:left;
+
+
+
+}
+ #large,#portfolio {
+  width:40%;
+float: right;
+position: fixed;
+right:-1em;
+
+
+
+
+  
+}
+form{
+    font-family: 'Bungee Inline', cursive;
+position: relative;
+left:1em;
+}
+
+
+#comments,#fontcolor{
+
+    font-size: 2vw;
+    font-family: 'Monoton', cursive;
+  
+ 
+
+
+   
+  
+}
+.fotorama{
+  
+position: absolute;
+
+}
+#comments2{
+
+    font-size: 2vw;
+
+    font-family: 'Bungee Inline', cursive;
+
+ 
+
+
+
+}
+.words{
+  
+position: absolute;
+   left:16em;
+
+}
+#sidebar{
+
+    position: fixed;
+
+
+}
+form{
+    font-size:1vw;
+    
+    
+}
+#fontcolor{
+
+    color:#00ff;
+}
+
+/*nav */
+nav.sitenavigation { 
+
+
+
+    background-color: #333;
+    overflow: hidden;
+   position: fixed;
+    bottom: 12em;
+    width: 100%;
+    opacity: 0.5;
+
+}
+ 
+
+ nav.sitenavigation ul {  
+    
+ }
+nav.sitenavigation li {
+    display:inline-block;
+font-size:2.5em;
+
+margin:0 0 0 8em;
+
+    
+ }
+
+ nav.sitenavigation a:link {
+    text-decoration: none;
+    color: white;
+ }
+ nav.sitenavigation a:visited {
+    color: #bdccd4;
+ }
+ nav.sitenavigation a:hover {
+    color: black;
+    background-color: white;
+ }
+ /*mobile*/
+ .mobile{
+     display:none;
+ }
+ /*Print Style*/
+ @media print { 
+     body, h1, article, footer {
+    background-color: rgb(255,255,255);
+ 
+ }
+ body {
+    max-width: 100%;
+ }
+ nav {
+    display: none;
+ }
+ section {
+    padding-bottom: 4%;
+ }
+ .top-link {
+    display: block;
+ }
+ }
+ @media screen and (max-width:800px){
+    .responsive {
+        max-width: none;
+
+        
+     }
+ 
+     .mobile{
+         display:block;
+     }
+     
+   #sidebar{
+       position: absolute;
+    top:70em;
+   }
+     #piano{
+        position: absolute;
+        
+        left:17em;
+     }
+   
+    
+     #large,#portfolio{
+         display:none;
+     }
+     .words{position: absolute;
+        border:2px solid #333;
+       max-height :600px;
+       width:1000px;
+       overflow:auto;
+       left:3em;
+      top:23em;
+     
+    }
+    form,p,#comments,#fontcolor,#comments2{
+
+        font-size: 40px;
+   
+    }
+    
+    .fotorama{
+        position: absolute;
+        left:0em;
+    
+    }
+    }
+   
+
+  
+    
+ 
+
+ 
